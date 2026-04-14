@@ -287,8 +287,8 @@ hr.brdrsctn{border-top: 1px solid #D1F2F1; margin-top:40px; margin-bottom:40px;}
 	margin-top:0;
 }
 .openbtn:hover {background-color:transparent;}
-.openbtn.rotate i { transform: rotate(90deg);}
-.openbtn i.fas{color: #00a4fb;	font-size:30px; margin-right:0; transition: transform 0.5s ease;}
+#main button.openbtn svg { transform: rotate(-180deg);}
+#main button.openbtn svg{fill: #00a4fb; height:40px; margin-right:0; transition: transform 0.5s ease;}
 #main {
 	float: right;
     margin-top: 0;
@@ -297,22 +297,7 @@ hr.brdrsctn{border-top: 1px solid #D1F2F1; margin-top:40px; margin-bottom:40px;}
     right: 0;
 }
 #main a.bktxt:hover{background:#FFF; color:#000;}
-#main a i.fas{
-	color: #dd9a38;
-    font-size:24px;
-    margin-top:0;
-    position:absolute;
-    right:60px;
-}
-#main a i.fab{
-	color: #12933c;
-    font-size:40px;
-    margin-right: 5px;
-    margin-top: 0;
-    position: absolute;
-    right:50px;
-    top:0;
-}
+#main svg{fill: #00a4fb; height:30px; margin-right:0; position:relative; bottom:0;}
 /* ACCORDIAN CSS */
 .panel-group {margin-bottom: 0;}
 .panel-group .panel {
@@ -891,13 +876,22 @@ hr{border-top: 1px solid #00ADFE;}
     right: 0;
 	transition: transform 0.2s ease-out;
 }
+.socialbx{padding:25px;}
+.socialbx ul{padding-inline-start:0;}
+.socialbx ul li{display:inline-table; list-style-type:none; margin:0 3px;}
+.socialbx ul li a {padding:0 0; line-height:0; border-bottom:none;}
+.socialbx ul li a svg{
+	fill: #fff;
+    background: #009fff;
+    height: 35px;
+    padding: 6px;
+    border-radius: 5px;
+}
 /*MEDIA QUERY CSS STARTS HERE*/
 @media only screen and (orientation:portrait){}
 /* @media screen and (max-width:1799px){.bannersctn .evntbx .bannrbx{top: 180px;}} */
-@media screen and (max-width:1440px){}
-@media screen and (max-width:1366px){
-	.triangle-one{right:0;}
-}
+@media screen and (max-width:1440px){.triangle-one{right:0;}}
+@media screen and (max-width:1366px){}
 @media screen and (max-width:1280px){}
 @media screen and (max-width:1080px){
 	.bttnbx{margin-top:25px;}

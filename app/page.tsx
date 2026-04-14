@@ -188,7 +188,7 @@ export default function HomePage() {
 													<div className="bnnrbxtxt">
 														<h1>R-Glide</h1>
 														<h2>composite bearings</h2>
-														<h3>By Royal Composites</h3>
+														<h3>By Royal Composite Pvt Ltd.</h3>
 														<a href="#product" className="bttn lrnmr"><i className="fas fa-arrow-right"></i> Explore Products</a>
 													</div>
 													<div className="bnnrbxtxt rotating-wrapper">
@@ -231,7 +231,7 @@ export default function HomePage() {
 								<p><img src="/images/key-box/load-icon.svg" className="img-responsive" alt=""/>Upto 600 MPA Load</p>
 							</div>
 							<div className="keycntnrbx">
-								<p><img src="/images/key-box/temparature-icon.svg" className="img-responsive" alt=""/>15°C - 220°C</p>
+								<p><img src="/images/key-box/temparature-icon.svg" className="img-responsive" alt=""/>-150*C to 220*C</p>
 							</div>
 							<div className="keycntnrbx">
 								<p><img src="/images/key-box/maintenance-icon.svg" className="img-responsive" alt=""/>Zero Maintenance</p>

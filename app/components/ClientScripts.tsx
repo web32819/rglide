@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+gsap.registerPlugin(ScrollTrigger); // ✅ top-level, runs once
 export default function ClientScripts() {
   const pathname = usePathname();
 

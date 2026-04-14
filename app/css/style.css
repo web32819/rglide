@@ -918,6 +918,7 @@ hr{border-top: 1px solid #00ADFE;}
 	.bannrBox{padding:0 30px; grid-column-gap:25px;}
 	.bannrBox h1{font-size:70px;}
 	.bannrBox h2{font-size: 30px; padding-bottom:15px;}
+	.bannrBox h3{line-height:37px; margin-bottom: 50px;}
 	.keycntnrbx { border-right: none; flex: 0 41%;}
 	.mtrltxtbx{left: 15%;}
 	.prdctsxtbx:first-child{flex-grow:0;}

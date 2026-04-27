@@ -12,7 +12,7 @@ export default function Navbar() {
             
             <div className="col-md-3 no-pad">
 				<Link href="/" className="navbar-brand">
-					<Image src="/images/logo.svg" alt="Logo" width={124} height={27} className="img-responsive" />
+					<Image src="/images/logo.svg" alt="Logo" width={134} height={45} className="img-responsive" />
 				</Link>
             </div>
 

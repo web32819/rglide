@@ -234,8 +234,8 @@ hr.brdrsctn{border-top: 1px solid #D1F2F1; margin-top:40px; margin-bottom:40px;}
 	width:100%; 
 	top:0;
 }
+.mobile-header a.navbar-brand{margin-top:0;}
 .mblnav{padding-top:30px;}
-.logoBox a img{}
 .sidebar {
 	height: 100%;
 	width: 0;
@@ -462,7 +462,8 @@ hr{border-top: 1px solid #00ADFE;}
     display: inline-block;
     margin-bottom: 0;
 }
- .bannrBox h1{text-align:left; color:#009FFF; font-size:90px; font-weight:600; margin-bottom:5px;}
+.bannrBox h1{text-align:left; color:#009FFF; font-size:90px; font-weight:600; margin-bottom:5px;}
+.bannrBox h1 span{color:#;}
 .bannrBox h3{
 	text-align:left;
 	color:#032E5D;
@@ -500,17 +501,18 @@ hr{border-top: 1px solid #00ADFE;}
 .keycntnr p img{margin-right:10px;}
 .aboutsctn h1{line-height:80px;}
 .mtrlsctn{
-	margin-top:40px;
-	grid-column-gap:40px;
-    grid-row-gap:40px;
+	margin-top:46px;
+	grid-column-gap:20px;
+    grid-row-gap:20px;
     flex-wrap: wrap;
     display: flex;
     justify-content:center;
     align-items: stretch;
+	position:relative;
 }
 .mtrlsctnbx{
 	background:#FFF;
-	flex:1 46%;
+	flex:1 32%;
 	padding:85px 45px;
 	border-radius:30px;
 	position:relative;
@@ -523,9 +525,8 @@ hr{border-top: 1px solid #00ADFE;}
     padding: 14px 60px;
     position: absolute;
     top: -23px;
-    left: 26%;
 }
-.mtrltxtbx h3{color:#FFF; font-size:24px; font-weight:500; text-transform:uppercase;}
+.mtrltxtbx h3{color:#FFF; font-size:20px; font-weight:500; text-transform:uppercase;}
 .mtrlsctnbx:hover{box-shadow: 0px 10px 22px 0px rgba(0,0,0,0.1);}
 .bronzesctn{position:relative; padding-bottom:130px;}
 .bronzcntnr{

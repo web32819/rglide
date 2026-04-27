@@ -186,13 +186,13 @@ export default function HomePage() {
 											
 												<div className="bannrBox">
 													<div className="bnnrbxtxt">
-														<h1>R-Glide</h1>
+														<h1>R-<span>Glide</span></h1>
 														<h2>composite bearings</h2>
 														<h3>By Royal Composite Pvt Ltd.</h3>
 														<a href="#product" className="bttn lrnmr"><i className="fas fa-arrow-right"></i> Explore Products</a>
 													</div>
 													<div className="bnnrbxtxt rotating-wrapper">
-														<img src="/images/banner-image-new-one.png" className="img-responsive " alt="" />
+														<img src="/images/banner-image.png" className="img-responsive " alt="" />
 													</div>
 													<div className="clearfix"></div>
 												</div>
@@ -250,7 +250,7 @@ export default function HomePage() {
 				<div className="row">
 					<div className="col-md-12">
 						
-						<div className="col-md-8 col-md-offset-2"><h1>Redefining Tribology Through Material Science</h1></div>
+						<div className="col-md-9 col-md-offset-2"><h1>Redefining Tribology Through Material Science</h1></div>
 						
 						<div className="clearfix"></div>
 						
@@ -258,14 +258,21 @@ export default function HomePage() {
 						
 							<div className="mtrlsctnbx hvr-grow">
 								<div className="mtrltxtbx">
-									<h3>FW-Series</h3>
+									<h3>EPB SERIES</h3>
 								</div>
 								<img src="/images/mtrlsctn/material-fw-series.webp" className="img-responsive" alt=""/>
 							</div>
 							
 							<div className="mtrlsctnbx hvr-grow">
 								<div className="mtrltxtbx">
-									<h3>FW-L-Series</h3>
+									<h3>FRB SERIES</h3>
+								</div>
+								<img src="/images/mtrlsctn/material-fwl-series.webp" className="img-responsive" alt=""/>
+							</div>
+							
+							<div className="mtrlsctnbx hvr-grow">
+								<div className="mtrltxtbx">
+									<h3>FWB SERIES</h3>
 								</div>
 								<img src="/images/mtrlsctn/material-fwl-series.webp" className="img-responsive" alt=""/>
 							</div>

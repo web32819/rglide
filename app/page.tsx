@@ -389,8 +389,8 @@ export default function HomePage() {
 							</div>
 							
 							<div className="prdctsxtbx">
-								<h3><span>EPB</span> SERIES</h3>
-								<p>Engineering Plastic Bearings</p>
+								<h3><span>FRB</span> SERIES</h3>
+								<p>FABRIC COMPOSITE BEARINGS</p>
 								<div className="imgbx">
 									<img src="/images/product/epb/product-frb.png" className="img-responsive" alt=""/>
 								</div>
@@ -398,30 +398,61 @@ export default function HomePage() {
 									<h4>Material</h4>
 									<hr/>
 									<ul>
-										<li>Polyamide, Aromatic Polyamide, POM</li>
-										<li>Glass Fibers + PTFE, MoS₂, Graphite</li>
-										<li>Dry Running Operations</li>
+										<li>Polyester/Phenolic Fabric Composites</li>
+										<li>Solid Lubricants</li>
+										<li>High Load, Low Speed</li>
 									</ul>
 								</div>
 								<div className="txtbx">
 									<h4>Key Benefits</h4>
 									<hr/>
 									<ul>
-										<li>Low Friction (No Lubrication)</li>
-										<li>Light weight and corrosion resistant</li>
-										<li>Excellent wear resistance</li>
+										<li>High Compressive Strength</li>
+										<li>Dimensional Stability</li>
+										<li>Performs in wet environments</li>
 									</ul>
 								</div>
 								<div className="txtbx">
 									<h4>Applications</h4>
 									<hr/>
 									<ul>
-										<li>Automation · Hydraulics · Agriculture</li>
+										<li>Marine· Hydraulics · Submersibles</li>
 									</ul>
 								</div>
 							</div>
 							
-							<div className="prdctsxtbx">ss</div>
+							<div className="prdctsxtbx">
+								<h3><span>FWB</span> SERIES</h3>
+								<p>FILAMENT-WOUND BEARINGS</p>
+								<div className="imgbx">
+									<img src="/images/product/epb/product-fwb.png" className="img-responsive" alt=""/>
+								</div>
+								<div className="txtbx">
+									<h4>Material</h4>
+									<hr/>
+									<ul>
+										<li>Glass / Synthetic fiber wound structures</li>
+										<li>Thermoset resin systems</li>
+										<li>Optional low-friction liners</li>
+									</ul>
+								</div>
+								<div className="txtbx">
+									<h4>Key Benefits</h4>
+									<hr/>
+									<ul>
+										<li>Extremely high load capacity</li>
+										<li>High fatigue resistance</li>
+										<li>Ideal for oscillating motion</li>
+									</ul>
+								</div>
+								<div className="txtbx">
+									<h4>Applications</h4>
+									<hr/>
+									<ul>
+										<li>Construction · Mining · Agriculture</li>
+									</ul>
+								</div>
+							</div>
 							
 						</div>
 

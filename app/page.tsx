@@ -4,18 +4,12 @@ import { useState } from "react";
 export default function HomePage() {
 
 	useEffect(() => {
-  const accordionItems = document.querySelectorAll(".accordion-item");
+   const accordionItems = document.querySelectorAll(".accordion-item");
 
   accordionItems.forEach((item) => {
-    const header = item.querySelector(
-      ".accordion-header"
-    ) as HTMLElement | null;
-
+    const header = item.querySelector(".accordion-header") as HTMLElement | null;
     const icon = header?.querySelector("i") as HTMLElement | null;
-
-    const content = item.querySelector(
-      ".accordion-content"
-    ) as HTMLElement | null;
+    const content = item.querySelector(".accordion-content") as HTMLElement | null;
 
     // Open active item on page load
     if (item.classList.contains("active") && content) {
@@ -27,21 +21,16 @@ export default function HomePage() {
       e.preventDefault();
 
       accordionItems.forEach((i) => {
-        const iContent = i.querySelector(
-          ".accordion-content"
-        ) as HTMLElement | null;
-
+        const iContent = i.querySelector(".accordion-content") as HTMLElement | null;
         const iIcon = i.querySelector("i") as HTMLElement | null;
 
         if (i !== item && iContent && iIcon) {
           i.classList.remove("active");
 
           iContent.style.height = `${iContent.scrollHeight}px`;
-
           requestAnimationFrame(() => {
             iContent.style.height = "0";
           });
-
           iContent.style.padding = "15px 10px";
 
           iIcon.classList.remove("fa-minus");
@@ -55,11 +44,9 @@ export default function HomePage() {
 
       if (isActive) {
         content.style.height = `${content.scrollHeight}px`;
-
         requestAnimationFrame(() => {
           content.style.height = "0";
         });
-
         content.style.padding = "15px 10px";
 
         icon.classList.remove("fa-minus");
@@ -260,21 +247,21 @@ export default function HomePage() {
 								<div className="mtrltxtbx">
 									<h3>EPB SERIES</h3>
 								</div>
-								<img src="/images/mtrlsctn/material-fw-series.webp" className="img-responsive" alt=""/>
+								<img src="/images/mtrlsctn/material-epb-series.webp" className="img-responsive" alt=""/>
 							</div>
 							
 							<div className="mtrlsctnbx hvr-grow">
 								<div className="mtrltxtbx">
 									<h3>FRB SERIES</h3>
 								</div>
-								<img src="/images/mtrlsctn/material-fwl-series.webp" className="img-responsive" alt=""/>
+								<img src="/images/mtrlsctn/material-frb-series.webp" className="img-responsive" alt=""/>
 							</div>
 							
 							<div className="mtrlsctnbx hvr-grow">
 								<div className="mtrltxtbx">
 									<h3>FWB SERIES</h3>
 								</div>
-								<img src="/images/mtrlsctn/material-fwl-series.webp" className="img-responsive" alt=""/>
+								<img src="/images/mtrlsctn/material-fwb-series.webp" className="img-responsive" alt=""/>
 							</div>
 							
 						</div>
@@ -364,313 +351,80 @@ export default function HomePage() {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-12">
-					
-						<div className="prdctsxtsctn">
-							<div className="prdctsxtbx">
-								<h1>Start standard. <br className="visible-lg visible-md"/>Customize when it matters</h1>
-							</div>
-							<div className="prdctsxtbx">
-								<p>Fabric-reinforced bearings use woven reinforcement structures impregnated with engineered resin systems. The fabric architecture allows excellent conformability, impact resistance, and adaptability across environments.</p>
-							</div>
-						</div>
+						<h1><span>Start Standard</span> Customize when it matters</h1>
 						
-						<div className="prdctgrysctn">
-							<div className="tab">
-							
-								<button className={`tablinks ${activeTab === "London" ? "active" : ""}`} onClick={() => setActiveTab("London")} > FW-L</button>
-
-								<button className={`tablinks ${activeTab === "Paris" ? "active" : ""}`} onClick={() => setActiveTab("Paris")} > FW-01 </button>
-
-								<button className={`tablinks ${activeTab === "Tokyo" ? "active" : ""}`} onClick={() => setActiveTab("Tokyo")} > FW-02 </button>
-								
-								<button className={`tablinks ${activeTab === "FW-03" ? "active" : ""}`} onClick={() => setActiveTab("FW-03")} > FW-03 </button>
-								
+						<div className="prdctsxtsctn">
+						
+							<div className="prdctsxtbx">
+								<h3><span>EPB</span> SERIES</h3>
+								<p>Engineering Plastic Bearings</p>
+								<div className="imgbx">
+									<img src="/images/product/epb/product-epb.png" className="img-responsive" alt=""/>
+								</div>
+								<div className="txtbx">
+									<h4>Material</h4>
+									<hr/>
+									<ul>
+										<li>Polyamide, Aromatic Polyamide, POM</li>
+										<li>Glass Fibers + PTFE, MoS₂, Graphite</li>
+										<li>Dry Running Operations</li>
+									</ul>
+								</div>
+								<div className="txtbx">
+									<h4>Key Benefits</h4>
+									<hr/>
+									<ul>
+										<li>Low Friction (No Lubrication)</li>
+										<li>Light weight and corrosion resistant</li>
+										<li>Excellent wear resistance</li>
+									</ul>
+								</div>
+								<div className="txtbx">
+									<h4>Applications</h4>
+									<hr/>
+									<ul>
+										<li>Automation · Hydraulics · Agriculture</li>
+									</ul>
+								</div>
 							</div>
-
-							{activeTab === "London" && (
-								<div className="tabcontent">
-								
-									<div className="prdctdtlsctn">
-									
-										<div className="prdctdtlsctnbx">
-											<h2>FW-L</h2>
-											<p>PTFE-Lined Filament-Wound</p>
-											<ul className="prdctlst">
-												<li>Up to 450 MPa sustained compressive load</li>
-												<li> 0.05–0.12 coefficient of friction (dry) </li>
-												<li>Integrated woven PTFE liner for ultra-low wear</li>
-												<li>Precision filament-wound glass fiber architecture </li>
-												<li>Ideal for hydraulic cylinders & heavy articulation pivots</li>
-											</ul>
-											
-											<h3>Applications</h3>
-											<p className="applctntxt">Industrial machinery, agricultural equipment, conveyors, linkages, general pivots</p>
-
-										</div>
-										<div className="prdctdtlsctnbx">
-											<img src="/images/banner-image-new-one.png" className="img-responsive" alt=""/>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<div className="prdctdtunebx">
-												<h4>What we tune</h4>
-												<p className="applctntxt">To match load, speed, environment, and life targets.</p>
-												<hr className="prdcthr"/>
-												
-												<div className="lstbx">
-													<h4>Reinforcement</h4>
-													<p>Synthetic Glass, carbon, aramid fibre selection</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Matrix</h4>
-													<p>Epoxy, phenolic, polyester resin systems</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Liner</h4>
-													<p>PTFE variants and solid lubricant blends</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Additives</h4>
-													<p>Graphite, MoS₂, and custom fillers</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Geometry</h4>
-													<p>Standard or custom bore, OD, length</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Finish</h4>
-													<p>Surface roughness and tolerance control</p>
-												</div>
-												
-											</div>
-										</div>
-										
-									</div>
-									
-									<div className="bttnbx">
-										<a href="#" className="lrnmr hvr-fade"><i className="fas fa-arrow-right"></i> Discuss your application</a>
-										<a href="#" className="rqstmore hvr-fade"><i className="fas fa-arrow-right"></i> Request a spec sheet</a>
-									</div>
-									
-								</div>
-							)}
-
-							{activeTab === "Paris" && (
-								<div className="tabcontent">
-								  
-									<div className="prdctdtlsctn">
-									
-										<div className="prdctdtlsctnbx">
-											<h2>FW-01</h2>
-											<p>Composite – General Purpose</p>
-											<ul className="prdctlst">
-												<li>Up to 250 MPa compressive strength</li>
-												<li>Maintenance-free, grease-free operation</li>
-												<li>Balanced wear & impact resistance</li>
-												<li>Cost-efficient bronze replacement</li>
-												<li>Industrial machinery, agriculture, linkages</li>
-											</ul>
-											<h3>Applications</h3>
-											<p className="applctntxt">Industrial machinery, agricultural equipment, conveyors, linkages, general pivots</p>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<img src="/images/product/fw-01/fw-01-product-image.webp" className="img-responsive" alt=""/>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<div className="prdctdtunebx">
-												<h4>What we tune</h4>
-												<p className="applctntxt">To match load, speed, environment, and life targets.</p>
-												<hr className="prdcthr"/>
-												
-												<div className="lstbx">
-													<h4>Reinforcement</h4>
-													<p>Synthetic Glass, carbon, aramid fibre selection</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Matrix</h4>
-													<p>Epoxy, phenolic, polyester resin systems</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Liner</h4>
-													<p>PTFE variants and solid lubricant blends</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Additives</h4>
-													<p>Graphite, MoS₂, and custom fillers</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Geometry</h4>
-													<p>Standard or custom bore, OD, length</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Finish</h4>
-													<p>Surface roughness and tolerance control</p>
-												</div>
-												
-											</div>
-										</div>
-										
-									</div>
-									
-									<div className="bttnbx">
-										<a href="#" className="lrnmr hvr-fade"><i className="fas fa-arrow-right"></i> Discuss your application</a>
-										<a href="#" className="rqstmore hvr-fade"><i className="fas fa-arrow-right"></i> Request a spec sheet</a>
-									</div>
-								  
-								</div>
-							)}
-
-							{activeTab === "Tokyo" && (
-								<div className="tabcontent">
-									
-									<div className="prdctdtlsctn">
-									
-										<div className="prdctdtlsctnbx">
-											<h2>FW-02</h2>
-											<p>Marine & Water-Optimized</p>
-											<ul className="prdctlst">
-												<li>Stable performance in submerged conditions</li>
-												<li>Excellent saltwater & corrosion resistance</li>
-												<li>No grease washout</li>
-												<li>Dimensional stability in wet environments</li>
-												<li>Rudders, offshore systems, hydro equipment</li>
-											</ul>
-											<h3>Applications</h3>
-											<p className="applctntxt">Marine rudders, shipboard mechanisms, offshore structures, hydro equipment</p>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<img src="/images/product/fw-02/fw-02-product-image.webp" className="img-responsive" alt=""/>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<div className="prdctdtunebx">
-												<h4>What we tune</h4>
-												<p className="applctntxt">To match load, speed, environment, and life targets.</p>
-												<hr className="prdcthr"/>
-												
-												<div className="lstbx">
-													<h4>Reinforcement</h4>
-													<p>Synthetic Glass, carbon, aramid fibre selection</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Matrix</h4>
-													<p>Epoxy, phenolic, polyester resin systems</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Liner</h4>
-													<p>PTFE variants and solid lubricant blends</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Additives</h4>
-													<p>Graphite, MoS₂, and custom fillers</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Geometry</h4>
-													<p>Standard or custom bore, OD, length</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Finish</h4>
-													<p>Surface roughness and tolerance control</p>
-												</div>
-												
-											</div>
-										</div>
-										
-									</div>
-									
-									<div className="bttnbx">
-										<a href="#" className="lrnmr hvr-fade"><i className="fas fa-arrow-right"></i> Discuss your application</a>
-										<a href="#" className="rqstmore hvr-fade"><i className="fas fa-arrow-right"></i> Request a spec sheet</a>
-									</div>
-									
-								</div>
-							)}
 							
-							{activeTab === "FW-03" && (
-								<div className="tabcontent">
-								  
-								  <div className="prdctdtlsctn">
-									
-										<div className="prdctdtlsctnbx">
-											<h2>FW-03</h2>
-											<p>High-Temperature Composite</p>
-											<ul className="prdctlst">
-												<li>Operating range: −120°C to +220°C</li>
-												<li>Thermally stable resin system</li>
-												<li>No lubricant burn-off</li>
-												<li>Maintains strength under heat cycling</li>
-												<li>Steel plants, furnaces, extreme industry</li>
-											</ul>
-											<h3>Applications</h3>
-											<p className="applctntxt">Steel plants, foundries, high-temperature industrial equipment, aerospace-adjacent systems</p>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<img src="/images/product/fw-03/fw-03-product-image.webp" className="img-responsive" alt=""/>
-										</div>
-										<div className="prdctdtlsctnbx">
-											<div className="prdctdtunebx">
-												<h4>What we tune</h4>
-												<p className="applctntxt">To match load, speed, environment, and life targets.</p>
-												<hr className="prdcthr"/>
-												
-												<div className="lstbx">
-													<h4>Reinforcement</h4>
-													<p>Synthetic Glass, carbon, aramid fibre selection</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Matrix</h4>
-													<p>Epoxy, phenolic, polyester resin systems</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Liner</h4>
-													<p>PTFE variants and solid lubricant blends</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Additives</h4>
-													<p>Graphite, MoS₂, and custom fillers</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Geometry</h4>
-													<p>Standard or custom bore, OD, length</p>
-												</div>
-												
-												<div className="lstbx">
-													<h4>Finish</h4>
-													<p>Surface roughness and tolerance control</p>
-												</div>
-												
-											</div>
-										</div>
-										
-									</div>
-								  
-									<div className="bttnbx">
-										<a href="#" className="lrnmr hvr-fade"><i className="fas fa-arrow-right"></i> Discuss your application</a>
-										<a href="#" className="rqstmore hvr-fade"><i className="fas fa-arrow-right"></i> Request a spec sheet</a>
-									</div>
-									
+							<div className="prdctsxtbx">
+								<h3><span>EPB</span> SERIES</h3>
+								<p>Engineering Plastic Bearings</p>
+								<div className="imgbx">
+									<img src="/images/product/epb/product-frb.png" className="img-responsive" alt=""/>
 								</div>
-							)}
+								<div className="txtbx">
+									<h4>Material</h4>
+									<hr/>
+									<ul>
+										<li>Polyamide, Aromatic Polyamide, POM</li>
+										<li>Glass Fibers + PTFE, MoS₂, Graphite</li>
+										<li>Dry Running Operations</li>
+									</ul>
+								</div>
+								<div className="txtbx">
+									<h4>Key Benefits</h4>
+									<hr/>
+									<ul>
+										<li>Low Friction (No Lubrication)</li>
+										<li>Light weight and corrosion resistant</li>
+										<li>Excellent wear resistance</li>
+									</ul>
+								</div>
+								<div className="txtbx">
+									<h4>Applications</h4>
+									<hr/>
+									<ul>
+										<li>Automation · Hydraulics · Agriculture</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div className="prdctsxtbx">ss</div>
 							
 						</div>
-					
+
 						<div className="clearfix"></div>
 					</div>
 				</div>

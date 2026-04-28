@@ -23,7 +23,6 @@ export default function Navbar() {
 						<li><Link href="/#about" className="hvr-fade">About</Link></li>
 						<li><Link href="/#product" className="hvr-fade">Products</Link></li>
 						<li><Link href="/#application" className="hvr-fade">Applications</Link></li>
-						<li><Link href="#" className="hvr-fade">Other Products</Link></li>
 					</ul>
 				</div>
             </div>

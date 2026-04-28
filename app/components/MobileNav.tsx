@@ -67,7 +67,6 @@ export default function MobileHeader() {
 						<Link href="/#product" onClick={closeNav}>Products</Link>
 						<Link href="/#application" onClick={closeNav}>Application</Link>
 						<Link href="/#contact" onClick={closeNav}>Contact</Link>
-						<Link href="#" onClick={closeNav}>Other Products</Link>
 						
 						<div className="socialbx">
 							<h4>Follow Us:</h4>

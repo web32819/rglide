@@ -176,7 +176,7 @@ export default function HomePage() {
 														<h1>R<span>Glide</span></h1>
 														<h2>composite bearings</h2>
 														<h3>By Royal Composite Pvt Ltd.</h3>
-														<a href="#product" className="bttn lrnmr hvr-sweep-to-right"><i className="fas fa-arrow-right"></i> Explore Products</a>
+														<a href="#product" className="bttn lrnmr hvr-fade"><i className="fas fa-arrow-right"></i> Explore Products</a>
 													</div>
 													<div className="bnnrbxtxt rotating-wrapper">
 														<img src="/images/banner-image-new-one.webp" className="img-responsive " alt="" />
@@ -387,7 +387,7 @@ export default function HomePage() {
 									</ul>
 								</div>
 								
-								<a href="#cntctbx" className="bttn lrnmr hvr-sweep-to-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
+								<a href="#cntctbx" className="bttn lrnmr hvr-fade"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
 								
 							</div>
 							
@@ -422,7 +422,7 @@ export default function HomePage() {
 										<li>Marine· Hydraulics · Submersibles</li>
 									</ul>
 								</div>
-								<a href="#cntctbx" className="bttn lrnmr hvr-sweep-to-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
+								<a href="#cntctbx" className="bttn lrnmr hvr-fade"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
 							</div>
 							
 							<div className="prdctsxtbx">
@@ -456,7 +456,7 @@ export default function HomePage() {
 										<li>Construction · Mining · Agriculture</li>
 									</ul>
 								</div>
-								<a href="#cntctbx" className="bttn lrnmr hvr-sweep-to-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
+								<a href="#cntctbx" className="bttn lrnmr hvr-fade"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
 							</div>
 							
 						</div>
@@ -668,7 +668,7 @@ export default function HomePage() {
 										
 										<div className="col-md-6">
 											<div className="form-box">
-												<button name="submit" className="lrnmr hvr-sweep-to-right"><i className="fas fa-arrow-right"></i>Send</button>
+												<button name="submit" className="lrnmr hvr-fade"><i className="fas fa-arrow-right"></i>Send</button>
 											</div>
 										</div>
 										

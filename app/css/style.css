@@ -435,11 +435,8 @@ hr{border-top: 1px solid #00ADFE;}
 	grid-row-gap:40px;
 }
 .bnnrbxtxt{flex:1 46%;}
-a.lrnmr:before{
-	content: "";
-    display: block; /* or inline-block */
+a.lrnmr:hover{
 	background: #032e5d;
-	border-radius:30px;
 	border:1px solid #032e5d;
 }
 .bannrBox h2{
@@ -753,7 +750,7 @@ a.lrnmr:before{
 	padding:15px;
 }
 .form-box button.lrnmr{display:block; padding:16px 0; width:100%; font-size:16px; font-weight:600; text-transform:uppercase; outline:none}
-.form-box button.lrnmr:before{
+.form-box button.lrnmr:hover{
 	background: #032e5d;
 	border-radius:30px;
 	outline:none;

@@ -781,6 +781,7 @@ a.lrnmr:before{
     margin: 0 6px;
 	display: inline;
 	padding:0;
+	border-bottom:none;
 }
 .ftrbx ul.sclbx li a{
 	color:#FFF; 

@@ -179,7 +179,7 @@ export default function HomePage() {
 														<a href="#product" className="bttn lrnmr"><i className="fas fa-arrow-right"></i> Explore Products</a>
 													</div>
 													<div className="bnnrbxtxt rotating-wrapper">
-														<img src="/images/banner-image.png" className="img-responsive " alt="" />
+														<img src="/images/banner-image-new-one.webp" className="img-responsive " alt="" />
 													</div>
 													<div className="clearfix"></div>
 												</div>
@@ -218,7 +218,7 @@ export default function HomePage() {
 								<p><img src="/images/key-box/load-icon.svg" className="img-responsive" alt=""/>Upto 600 MPA Load</p>
 							</div>
 							<div className="keycntnrbx">
-								<p><img src="/images/key-box/temparature-icon.svg" className="img-responsive" alt=""/>-150*C to 220*C</p>
+								<p><img src="/images/key-box/temparature-icon.svg" className="img-responsive" alt=""/>-150°C - 220°C</p>
 							</div>
 							<div className="keycntnrbx">
 								<p><img src="/images/key-box/maintenance-icon.svg" className="img-responsive" alt=""/>Zero Maintenance</p>
@@ -386,6 +386,9 @@ export default function HomePage() {
 										<li>Automation · Hydraulics · Agriculture</li>
 									</ul>
 								</div>
+								
+								<a href="#cntctbx" className="bttn lrnmr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
+								
 							</div>
 							
 							<div className="prdctsxtbx">
@@ -419,6 +422,7 @@ export default function HomePage() {
 										<li>Marine· Hydraulics · Submersibles</li>
 									</ul>
 								</div>
+								<a href="#cntctbx" className="bttn lrnmr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
 							</div>
 							
 							<div className="prdctsxtbx">
@@ -452,6 +456,7 @@ export default function HomePage() {
 										<li>Construction · Mining · Agriculture</li>
 									</ul>
 								</div>
+								<a href="#cntctbx" className="bttn lrnmr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/></svg>Discuss your application</a>
 							</div>
 							
 						</div>
@@ -459,6 +464,49 @@ export default function HomePage() {
 						<div className="clearfix"></div>
 					</div>
 				</div>
+				
+				<hr/>
+				
+				<div className="row">
+					<div className="col-md-12 tunesctnbx">
+					
+						<div className="tunecntnr">
+							<div className="tunetxtbx"><h2>What We Tune</h2></div>
+							<div className="tunetxtbx"><p>To match load, speed, environment, and life targets.</p></div>
+						</div>
+						
+						<div className="bxsctn">
+							<div className="bxsctncntnr">
+								<h4>Reinforcement</h4>
+								<p>Glass, carbon, aramid fibre selection</p>
+							</div>
+							<div className="bxsctncntnr">
+								<h4>Matrix</h4>
+								<p>Epoxy, phenolic, polyester resin systems</p>
+							</div>
+							<div className="bxsctncntnr">
+								<h4>Liner</h4>
+								<p>PTFE variants and solid lubricant blends</p>
+							</div>
+							<div className="bxsctncntnr">
+								<h4>Additives</h4>
+								<p>Graphite, MoS2, and custom fillers</p>
+							</div>
+							<div className="bxsctncntnr">
+								<h4>Geometry</h4>
+								<p>Standard or custom bore, OD, length</p>
+							</div>
+							<div className="bxsctncntnr">
+								<h4>Finish</h4>
+								<p>Surface roughness and tolerance control</p>
+							</div>
+						</div>
+						
+						
+						<div className="clearfix"></div>
+					</div>
+				</div>
+
 			</div>
 		</section>
 		
@@ -571,7 +619,7 @@ export default function HomePage() {
 							
 							<div className="contactsctnbx">
 							
-								<div className="contactbox">
+								<div className="contactbox" id="cntctbx">
 									<form action="/enquiry.php" method="post" id="form" className="frmbx">
 									
 										{/* Honeypot */}

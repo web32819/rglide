@@ -150,7 +150,7 @@ i.fas{margin-right:10px;}
 #myNavbar ul{padding-inline-start:0; float:none; display:table; margin:0 auto; position:relative;}
 #myNavbar ul li{padding:0 25px;}
 #myNavbar ul li a{transition: all 0.3s ease; padding:0; color:#71717A; font-weight: 400;}
-#myNavbar ul li a:hover{transform: translateY(-2px); color:#000;}
+#myNavbar ul li a:hover{transform: translateY(-2px); color:#032E5D;}
 #myNavbar ul li.active a{background-color:transparent;}
 .navbar-nav>li>.dropdown-menu{margin-top:0 !important;}
 @media screen and (min-width:992px) and (max-width:1199px){
@@ -436,6 +436,8 @@ hr{border-top: 1px solid #00ADFE;}
 }
 .bnnrbxtxt{flex:1 46%;}
 a.lrnmr:before{
+	content: "";
+    display: block; /* or inline-block */
 	background: #032e5d;
 	border-radius:30px;
 	border:1px solid #032e5d;
@@ -598,6 +600,11 @@ a.lrnmr:before{
 	cursor:pointer;
 }
 .prdctsxtbx:hover{transform: scale(1.03);}
+.prdctsxtbx:hover a.lrnmr:before{
+	background: #032e5d;
+	border-radius:30px;
+	border:1px solid #032e5d;
+}
 .prdctsxtbx h3{text-align:left; font-weight:600; font-size:25px; line-height:40px;}
 .prdctsxtbx h3 span{color:#009FFF;}
 .prdctsxtbx p{font-size:15px; color:#2A4D72; text-transform:uppercase;}

@@ -359,7 +359,7 @@ export default function HomePage() {
 								<h3><span>EPB</span> SERIES</h3>
 								<p>Engineering Plastic Bearings</p>
 								<div className="imgbx">
-									<img src="/images/product/epb/product-epb.png" className="img-responsive" alt=""/>
+									<img src="/images/product/epb/product-epb.webp" className="img-responsive" alt=""/>
 								</div>
 								<div className="txtbx">
 									<h4>Material</h4>
@@ -395,7 +395,7 @@ export default function HomePage() {
 								<h3><span>FRB</span> SERIES</h3>
 								<p>FABRIC COMPOSITE BEARINGS</p>
 								<div className="imgbx">
-									<img src="/images/product/epb/product-frb.png" className="img-responsive" alt=""/>
+									<img src="/images/product/epb/product-frb.webp" className="img-responsive" alt=""/>
 								</div>
 								<div className="txtbx">
 									<h4>Material</h4>
@@ -429,7 +429,7 @@ export default function HomePage() {
 								<h3><span>FWB</span> SERIES</h3>
 								<p>FILAMENT-WOUND BEARINGS</p>
 								<div className="imgbx">
-									<img src="/images/product/epb/product-fwb.png" className="img-responsive" alt=""/>
+									<img src="/images/product/epb/product-fwb.webp" className="img-responsive" alt=""/>
 								</div>
 								<div className="txtbx">
 									<h4>Material</h4>
